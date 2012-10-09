@@ -1,0 +1,54 @@
+/*Photo Gallery*/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#content > #gallery {
+	height: auto;
+}
+
+#pages {
+	display: block;
+/*	margin-top: 10pt;*/
+	margin-bottom: 10pt;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+#pages #curr {
+	font-weight: bold;
+}
+
+em {
+	display: block;
+	clear: both;
+	margin-bottom: 10pt;
+}
+
+#gallery * {
+	margin: 0;
+	padding: 0;
+}
+
+#gallery table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery table * {
+	/*border: 0;*/
+	margin: 0;
+	padding: 0;
+}
+
+#gallery a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

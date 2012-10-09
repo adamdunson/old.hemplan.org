@@ -1,0 +1,349 @@
+/* CSS Document */
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    background-color: #002200;
+    color: #000000;
+    font-family: "Arial Narrow", Verdana, Arial, sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	height: auto;
+}
+
+#wrapper {
+	display: block;
+	clear: both;
+	text-align: center;
+    background-color: #eae8cf;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+    width: 777px;
+    height: 500px;
+}
+
+body > #wrapper {
+    width: auto;
+	max-width: 777px;
+	min-height: 500px;
+	height: auto;
+}
+
+a:link, a:active {
+    text-decoration: none;
+    color: #006600;
+    background-color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #006600;
+    background-color: inherit;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+	color: #006600;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: "Comic Sans MS", "Arial Narrow", Verdana, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 45pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+#head {
+	display: block;
+	clear: both;
+	height: auto;
+/*	width: 100%;*/
+	margin: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #102510;
+}
+
+#head h1 {
+	text-align: right;
+}
+
+#head em {
+	display: block;
+	text-align: right;
+	font-size: 14pt;
+	margin: 0;
+	padding: 0;
+}
+
+#head a {
+/*	display: block;*/
+	float: left;
+	text-align: left;
+}
+
+#head h1 a {
+	text-decoration: none;
+	float: none;
+	text-align: right;
+}
+
+/**********Links***********/
+
+#links {
+	display: block;
+	float: none;
+	clear: right;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #102510;
+	text-align: left;
+	border-bottom: 1px solid #005500;
+}
+
+#links a {
+	text-decoration: none; !important
+	width: 100%;
+	height: 100%;
+}
+
+#links a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#links dl {
+	margin: 0;
+	padding: 0;
+	height: 18pt;
+	width: 100%;
+	text-align: center;
+}
+
+#links dl, #links dt {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	text-align: center;
+}
+
+#links dt {
+	display: none;
+	font-size: 14pt;
+	font-weight: bold;
+	border-bottom: 2px solid #005500;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#links dt a {
+	text-decoration: none;
+}
+
+#links dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	width: 20%;
+	clear: right;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#links dd a {
+	display: inline;
+}
+
+#links dt.subsection {
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 1px solid #005500;
+}
+
+#links dl#nav {
+	display: none;
+}
+
+/**********End Links***********/
+
+
+#content {
+	display: block;
+	margin: 0 0 0 0;
+	width: auto;
+	height: 500px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+#wrapper > #content {
+	min-height: 500px;
+	height: auto;
+}
+
+#content a {
+	text-decoration: underline;
+}
+
+#content a:hover {
+	text-decoration: none;
+}
+
+table, table * {
+	margin: 0;
+	padding: 0;
+}
+
+.post {
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: thin solid #000000;
+	text-align: left;
+	background-color: #eed;
+	width: 100%;
+}
+
+.phead {
+	background-color: #dfdfb9;
+/*	color: #ffa34f;*/
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.phead td {
+	padding: 0;
+	margin: 0;
+	border-bottom: thin dotted #000000;
+}
+
+.title {
+	padding: 0;
+	margin: 0;
+	width: 75%;
+	font-weight: bold;
+	color: inherit;
+}
+
+.date {
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	text-align: right;
+}
+
+.pbody {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.pfoot {
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+#flashcontent {
+	margin-top: 10px;
+	text-align: center;
+	clear: right;
+}
+
+#when {
+}
+
+#content h1, #content h2, #content h3, #content p, #content ul {
+	clear: left;
+}
+
+.note {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 11pt;
+}
+
+.pending {
+    font-style: italic;
+}
+
+a.easteregg:link, a.easteregg:active {
+    text-decoration: none;
+    color: #005500;
+    background-color: inherit;
+}
+
+a.easteregg:visited {
+    text-decoration: none;
+    color: #005500;
+    background-color: inherit;
+}
+
+a.easteregg:hover, a.easteregg:focus {
+    text-decoration: none;
+}
+
+#foot {
+	display: block;
+	border-top: 1px solid #000000;
+	text-align: center;
+	padding: 3px;
+	margin: 0;
+	height: auto;
+	font-size: 10pt;
+}
+
+#foot a {
+	margin: 0;
+	padding: 0;
+}
+
+#foot a:hover {
+	text-decoration: none;
+}
+
+/*#foot img {
+	display: block;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	margin-right: 10px;
+	border: 0;
+}*/
